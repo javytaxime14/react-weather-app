@@ -1,5 +1,6 @@
-import 'bootstrap/dist/css/bootstrap.css';
 import './App.css';
+import Variables from './Variables';
+import Forecast from './Forecast';
 
 export default function App() {
   return (
@@ -17,7 +18,7 @@ export default function App() {
           </div>
 
           <div className="col-6 mt-5">
-          <h2>5 Day Forecast:</h2>
+          <Forecast />
           </div>
         </div>
 
@@ -26,9 +27,7 @@ export default function App() {
             <h2 className='text-center'>SomeCity, Country</h2>
           </div>
           <div className="col-6 mt-2"> {/* Make this section with cards */}  
-            <p>Feels Like:</p>
-            <p>Humidity:</p>
-            <p>Wind Speed:</p>
+            <Variables />
           </div>
         </div>
       </div>
