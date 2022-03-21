@@ -5,28 +5,28 @@ import Forecast from './Forecast';
 export default function App() {
   return (
     <div className="App"> 
-    <h1 className='text-center'> Let's talk about weather! ☀️</h1>
-      <div className="container">
+    <h1 className='text-center mt-3'> Let's talk about weather! ☀️</h1>
+      <div className="container mt-5">
         <div className="row">
-          <div className="col-6 mt-3">
+          <div className="col-sm-6 mt-3">
             <p>Search Engine</p>
             <p>
-              <img src="https://https://static.meteoblue.com/assets/images/picto/07_day.svg" alt="weather icon" className="mt-4" />
+              <img src="https://static.meteoblue.com/assets/images/picto/07_day.svg" alt="weather icon" className="mt-4 condition" />
             </p>
             <p><strong> Weather Description: </strong></p>
             <p><strong>Current Temperature: </strong></p>
           </div>
 
-          <div className="col-6 mt-5">
+          <div className="col-sm-6 mt-5">
           <Forecast />
           </div>
         </div>
 
         <div className="row">
-          <div className="col-6 mt-5">
-            <h2 className='text-center'>SomeCity, Country</h2>
+          <div className="col-sm-6 mt-5">
+            <h2 className='text-center mb-3'>SomeCity, Country</h2>
           </div>
-          <div className="col-6 mt-2"> {/* Make this section with cards */}  
+          <div className="col-sm-6 mt-5">
             <Variables />
           </div>
         </div>

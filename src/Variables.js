@@ -1,30 +1,34 @@
+import React from "react";
+import "./Variables.css";
+
 export default function Variables() {
     return (
         <div className="row row-cols-1 row-cols-md-2 g-4">
               <div className="col">
-                <div className="card">
+                <div className="card w-75 variable">
                   <div className="card-body">
-                    <h5 className="card-title">Feels like:</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h6 className="card-title">Feels like:</h6>
+                    <p className="card-text"></p>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card">
+                <div className="card w-75 variable">
                   <div className="card-body">
-                    <h5 className="card-title">Humidity:</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <h6 className="card-title">Humidity:</h6>
+                    <p className="card-text"></p>
                   </div>
                 </div>
               </div>
               <div className="col">
-                <div className="card">
+                <div className="card w-75 variable">
                   <div className="card-body">
-                    <h5 className="card-title">Wind speed</h5>
-                    <p className="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                    <h6 className="card-title">Wind speed:</h6>
+                    <p className="card-text"></p>
                   </div>
                 </div>
               </div>
             </div> 
-    );
+
+        );      
     }

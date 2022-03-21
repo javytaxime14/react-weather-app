@@ -1,0 +1,12 @@
+.App {
+    border: 2px solid rgb(141, 140, 140);
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-right: auto;
+}
+
+.condition {
+    width: 85px;
+    margin-left: 60px;
+}
