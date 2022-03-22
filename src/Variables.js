@@ -1,5 +1,8 @@
 import React from "react";
 import "./Variables.css";
+import temp from "./temp.png";
+import humidity from "./humidity.png";
+import wind from "./wind.png";
 
 export default function Variables() {
     return (
@@ -7,7 +10,8 @@ export default function Variables() {
               <div className="col">
                 <div className="card w-75 variable">
                   <div className="card-body">
-                    <h6 className="card-title">Feels like:</h6>
+                    <h6 className="card-title"><img src={temp} alt="temperature" className="temp" />
+                      Feels like:</h6>
                     <p className="card-text">20°C</p>
                   </div>
                 </div>
@@ -15,7 +19,7 @@ export default function Variables() {
               <div className="col">
                 <div className="card w-75 variable">
                   <div className="card-body">
-                    <h6 className="card-title">Humidity:</h6>
+                    <h6 className="card-title"><img src={humidity} alt="humidity" className="humidity" />Humidity:</h6>
                     <p className="card-text">30%</p>
                   </div>
                 </div>
@@ -23,7 +27,7 @@ export default function Variables() {
               <div className="col">
                 <div className="card w-75 variable">
                   <div className="card-body">
-                    <h6 className="card-title">Wind speed:</h6>
+                    <h6 className="card-title"><img src={wind} alt="wind" className="wind" />Wind speed:</h6>
                     <p className="card-text">8 km/h</p>
                   </div>
                 </div>

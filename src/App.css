@@ -46,3 +46,16 @@
     font-size: 13px;
     font-style: italic;    
 }
+
+.App .sun {
+    width: 35px;
+    height: 30px;
+    margin-top: -12px;
+    margin-left: 5px;
+}
+
+.App .footer-img {
+    width: 18px;
+    height: 18px;
+    margin-top: -5px;
+}
