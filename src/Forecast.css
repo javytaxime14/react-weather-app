@@ -1,0 +1,22 @@
+.forecast h2 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 25px;
+    margin: 0;
+    padding: 0;
+}
+
+.forecast .card {
+    background-color: #fff;
+    border-radius: 10px; 
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+.forecast .card-title {
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+

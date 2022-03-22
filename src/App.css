@@ -3,10 +3,44 @@
     border-radius: 5px;
     margin-top: 15px;
     margin-bottom: 15px;
-    margin-right: auto;
+    background: linear-gradient(to right, #00b09b, #96c93d);
 }
 
 .condition {
     width: 85px;
     margin-left: 60px;
+}
+
+.App h1 {
+    font-family: 'Dosis', sans-serif;
+    font-size: 30px;
+    margin-left: 10px;
+    line-height: 15px;
+}
+
+.App h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-left: 10px;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+.App footer {
+    font-family: 'Source Serif 4', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: oblique;
+}
+
+.App footer a {
+    font-family: 'Source Serif 4', sans-serif;
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+}
+
+.App .subtitle {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 13px;
+    font-style: italic;    
 }

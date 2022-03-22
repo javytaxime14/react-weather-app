@@ -1,0 +1,13 @@
+.search-engine button {
+    margin: 10px;
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    background: linear-gradient(to right, #093028, #237a57);
+}
+
+.search-engine label {
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+}

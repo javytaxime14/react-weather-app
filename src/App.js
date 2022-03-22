@@ -1,6 +1,7 @@
 import './App.css';
 import Variables from './Variables';
 import Forecast from './Forecast';
+import SearchEngine from './SearchEngine';
 
 export default function App() {
   return (
@@ -9,12 +10,12 @@ export default function App() {
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-6 mt-3">
-            <p>Search Engine</p>
+            <SearchEngine />
             <p>
               <img src="https://static.meteoblue.com/assets/images/picto/07_day.svg" alt="weather icon" className="mt-4 condition" />
             </p>
-            <p><strong> Weather Description: </strong></p>
-            <p><strong>Current Temperature: </strong></p>
+            <p><strong className='subtitle'> Weather Description: </strong></p>
+            <p><strong className='subtitle'>Current Temperature: </strong></p>
           </div>
 
           <div className="col-sm-6 mt-5">
