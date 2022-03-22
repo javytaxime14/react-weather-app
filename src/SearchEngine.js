@@ -1,5 +1,7 @@
 import React from "react";
 import "./SearchEngine.css";
+import current from "./current.png";
+import search from "./search.png";
 
 export default function SearchEngine() {
     return (
@@ -15,8 +17,8 @@ export default function SearchEngine() {
                     placeholder="Enter a city"
                     />
                 </div>
-                <button type="submit" className="btn btn-success btn-sm search-button">Search</button>
-                <button type="submit" className="btn btn-success btn-sm location button"> Current Location </button>
+                <button type="submit" className="btn btn-success btn-sm search-button">Search <img src={search} alt="search" className="search-icon" /></button>
+                <button type="submit" className="btn btn-success btn-sm location button"> <img src={current} alt="current location" className="current"/> Current Location </button>
             </form>
         </div>
         </div>

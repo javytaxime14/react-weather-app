@@ -8,7 +8,7 @@ export default function Variables() {
                 <div className="card w-75 variable">
                   <div className="card-body">
                     <h6 className="card-title">Feels like:</h6>
-                    <p className="card-text"></p>
+                    <p className="card-text">20°C</p>
                   </div>
                 </div>
               </div>
@@ -16,7 +16,7 @@ export default function Variables() {
                 <div className="card w-75 variable">
                   <div className="card-body">
                     <h6 className="card-title">Humidity:</h6>
-                    <p className="card-text"></p>
+                    <p className="card-text">30%</p>
                   </div>
                 </div>
               </div>
@@ -24,7 +24,7 @@ export default function Variables() {
                 <div className="card w-75 variable">
                   <div className="card-body">
                     <h6 className="card-title">Wind speed:</h6>
-                    <p className="card-text"></p>
+                    <p className="card-text">8 km/h</p>
                   </div>
                 </div>
               </div>

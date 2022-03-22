@@ -1,15 +1,20 @@
 .variable {
     display: inline-block;
-    border-radius: 50px;
-    width: 50px;
-    height: 50px;
     text-align: center;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    border-radius: 15px;
 }
 
-.variable h6 {
+h6 {
     font-size: 15px;
     margin-bottom: 20px;
     font-family: 'Dosis', sans-serif;
+}
+
+.variable .card-text {
+    font-size: 20px;
+    margin-top: 10px;
+    font-family: 'Source Serif 4', serif;
+    font-weight: 700;
 }

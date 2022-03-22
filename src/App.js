@@ -6,7 +6,7 @@ import SearchEngine from './SearchEngine';
 export default function App() {
   return (
     <div className="App"> 
-    <h1 className='text-center mt-3'> Let's talk about weather! ☀️</h1>
+    <h1 className='text-center'> Let's talk about weather! ☀️</h1>
       <div className="container mt-5">
         <div className="row">
           <div className="col-sm-6 mt-3">
